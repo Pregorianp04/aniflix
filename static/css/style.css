@@ -382,7 +382,7 @@
 }
 
 .btn-add {
-  background-color: #4CAF50;
+  background-color: #dc030f;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -393,7 +393,7 @@
 }
 
 .btn-add:hover {
-  background-color: #45a049;
+  background-color: #5e2436;
 }
 
 /* Styling untuk kontainer */

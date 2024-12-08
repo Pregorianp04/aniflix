@@ -6,10 +6,10 @@ from scipy.sparse import csr_matrix
 app = Flask(__name__)
 
 # Daftar genre
-genres = ["Action", "Comedy", "Kids", "Hentai", "School", "Adventure", "Fantasy", "Romance", "Drama"]
+genres = ["Action", "Comedy", "Kids", "Parody", "Historical", "Military", "Thriller", "Sports", "Adventure", "School", "Adventure", "Fantasy", "Romance", "Drama"]
 
 # Import dataset
-ratings = pd.read_csv('data/ratings.csv')  
+ratings = pd.read_csv('data/rating.csv')  
 animes = pd.read_csv('data/anime.csv')  
 
 # Data preparation
