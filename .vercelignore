@@ -1,12 +1,4 @@
-# Abaikan file Python bytecode
-__pycache__/
-*.py[cod]
-
 # Abaikan file virtual environment
 venv/
 env/
 .venv/
-
-*.log          # File log
-__pycache__/   # Cache Python
-*.pyc          # File cache Python bytecode
