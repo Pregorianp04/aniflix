@@ -9,8 +9,13 @@ app = Flask(__name__)
 genres = ["Action", "Comedy", "Kids", "Parody", "Historical", "Military", "Thriller", "Sports", "Adventure", "School", "Adventure", "Fantasy", "Romance", "Drama"]
 
 # Import dataset
-ratings = pd.read_csv('data/rating.csv')  
-animes = pd.read_csv('data/anime.csv')  
+# URL Google Drive dengan File ID
+url_anime = "https://drive.google.com/uc?id=1tW3EhTpNeaHR3dSQroyD9NY38JjZjRFu"
+url_rating = "https://drive.google.com/uc?id=1P-pjMrStiWe8vM04ti1M1hq3b6QaDp9Y"
+
+# Baca file CSV dari Google Drive
+animes = pd.read_csv(url_anime)
+ratings = pd.read_csv(url_rating)  
 
 # Data preparation
 ratings = ratings.dropna()
